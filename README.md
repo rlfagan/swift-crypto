@@ -1,4 +1,6 @@
 # Swift Crypto
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fswift-crypto.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fswift-crypto?ref=badge_shield)
+
 
 Swift Crypto is an open-source implementation of a substantial portion of the API of [Apple CryptoKit](https://developer.apple.com/documentation/cryptokit) suitable for use on Linux platforms. It enables cross-platform or server applications with the advantages of CryptoKit.
 
@@ -110,3 +112,7 @@ SemVer and Swift Crypto's Public API guarantees should result in a working progr
 
 Swift Crypto normally defers to the OS implementation of CryptoKit on macOS. Naturally, this makes developing Swift Crypto on macOS tricky. To get Swift Crypto to build the open source implementation on macOS, in `Package.swift`, uncomment the line that reads: `//.define("CRYPTO_IN_SWIFTPM_FORCE_BUILD_API")`, as this will force Swift Crypto to build its public API.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fswift-crypto.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fswift-crypto?ref=badge_large)
